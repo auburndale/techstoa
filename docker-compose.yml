@@ -2,16 +2,9 @@ version: '3'
 services:
   nginx: 
     image: nginx:latest
-    container_name: production_nginx
+    container_name: techstoa
     volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./public:/usr/share/nginx/html
     ports:
-      - 80:80
-      - 443:443
-      
-  ismydependencysafe:
-    image: ismydependencysafe:latest
-    container_name: production_ismydependencysafe
-    expose:
-      - "80"
-
+      - 8080:80
