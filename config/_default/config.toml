@@ -1,6 +1,6 @@
 baseURL = "https://www.social-lite.app"
 languageCode = "en-us"
-title = "Social-Lite - Your Community Without Propaganda Tools"
+title = "Social-Lite: Your Community Without Propaganda Tools"
 theme = "hugo-apps"
 googleAnalytics = ""
 author = "Gregory Boyce"
@@ -11,39 +11,33 @@ tag = "mobile android friendica"
   googleAutoAds = ""
   avatar = "/techstoa.png"
 
-
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  url = "/"
 
 [[menu.main]]
   name = "Mobile App"
-  weight = 1
+  weight = 2
   url = "/mobile-app"
-
-[[menu.main.mobile]]
-  name = "Android"
-  weight = 1
 
 [[menu.main]]
   name = "Services"
+  weight = 3
   url = "/services"
 
 [[menu.main]]
   name = "Pod Hosting"
-  weight = 3
+  weight = 4
   url = "/pod-hosting"
 
 [[menu.main]]
   name = "Self-Hosting"
-  weight = 3
+  weight = 5
   url = "/self-hosting"
 
 [[menu.main]]
-  name = "Why"
-  weight = 3
-  url = "/why"
-
-[[menu.main]]
   name = "Contact Us"
-  weight = 3
-  url = "contact"
+  weight = 6
+  url = "/contact"
 
-[[menu.main]]
