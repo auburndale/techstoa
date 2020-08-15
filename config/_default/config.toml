@@ -9,7 +9,7 @@ tag = "mobile android friendica"
 
 [params]
   googleAutoAds = ""
-  avatar = "https://openclipart.org/download/103855/tux.svg"
+  avatar = "/techstoa.png"
 
 
 
