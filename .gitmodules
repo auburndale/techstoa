@@ -1,0 +1,3 @@
+[submodule "themes/hugo-apps"]
+	path = themes/hugo-apps
+	url = git@github.com:gonnux/hugo-apps-theme.git
