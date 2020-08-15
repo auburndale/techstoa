@@ -13,31 +13,26 @@ tag = "mobile android friendica"
 
 [[menu.main]]
   name = "Home"
-  weight = 1
+  weight = 10
   url = "/"
 
 [[menu.main]]
   name = "Mobile App"
-  weight = 2
+  weight = 20
   url = "/mobile-app"
 
 [[menu.main]]
   name = "Services"
-  weight = 3
+  weight = 30
   url = "/services"
 
 [[menu.main]]
-  name = "Pod Hosting"
-  weight = 4
-  url = "/pod-hosting"
-
-[[menu.main]]
-  name = "Self-Hosting"
-  weight = 5
-  url = "/self-hosting"
+  name = "Devices"
+  weight = 40
+  url = "/devices"
 
 [[menu.main]]
   name = "Contact Us"
-  weight = 6
+  weight = 50
   url = "/contact"
 
