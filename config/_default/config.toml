@@ -32,7 +32,12 @@ tag = "mobile android friendica"
   url = "/devices"
 
 [[menu.main]]
-  name = "Contact Us"
+  name = "Privacy Focus"
   weight = 50
+  url = "/privacy"
+
+[[menu.main]]
+  name = "Contact Us"
+  weight = 60
   url = "/contact"
 
