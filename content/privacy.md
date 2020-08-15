@@ -1,7 +1,7 @@
 ---
 title: "Privacy Focus"
 date: 2020-08-15T13:07:57-04:00
-draft: true
+draft: false
 ---
 
 	I made Steve Bannon’s psychological warfare tool.
