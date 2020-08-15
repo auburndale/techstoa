@@ -17,9 +17,9 @@ tag = "mobile android friendica"
   url = "/"
 
 [[menu.main]]
-  name = "Mobile App"
+  name = "Mobile Apps"
   weight = 20
-  url = "/mobile-app"
+  url = "/mobile-apps"
 
 [[menu.main]]
   name = "Services"
