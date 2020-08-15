@@ -1,0 +1,49 @@
+baseURL = "https://www.social-lite.app"
+languageCode = "en-us"
+title = "Social-Lite - Your Community Without Propaganda Tools"
+theme = "hugo-apps"
+googleAnalytics = ""
+author = "Gregory Boyce"
+info = "Life Hacker"
+tag = "mobile android friendica"
+
+[params]
+  googleAutoAds = ""
+  avatar = "https://openclipart.org/download/103855/tux.svg"
+
+
+
+[[menu.main]]
+  name = "Mobile App"
+  weight = 1
+  url = "/mobile-app"
+
+[[menu.main.mobile]]
+  name = "Android"
+  weight = 1
+
+[[menu.main]]
+  name = "Services"
+  url = "/services"
+
+[[menu.main]]
+  name = "Pod Hosting"
+  weight = 3
+  url = "/pod-hosting"
+
+[[menu.main]]
+  name = "Self-Hosting"
+  weight = 3
+  url = "/self-hosting"
+
+[[menu.main]]
+  name = "Why"
+  weight = 3
+  url = "/why"
+
+[[menu.main]]
+  name = "Contact Us"
+  weight = 3
+  url = "contact"
+
+[[menu.main]]
