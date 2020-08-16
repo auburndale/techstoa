@@ -46,3 +46,7 @@ tag = "mobile android friendica"
   weight = 60
   url = "/about-us"
 
+[[menu.main]]
+  name = "Support Us"
+  weight = 70
+  url = "https://www.patreon.com/techstoa"
