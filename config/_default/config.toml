@@ -22,9 +22,9 @@ tag = "mobile android friendica"
   url = "/privacy"
 
 [[menu.main]]
-  name = "Mobile Apps"
+  name = "Social Lite App"
   weight = 30
-  url = "/mobile-apps"
+  url = "/social-lite"
 
 [[menu.main]]
   name = "Services"
