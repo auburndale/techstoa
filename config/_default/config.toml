@@ -38,15 +38,15 @@ tag = "mobile android friendica"
 
 [[menu.main]]
   name = "Open Source"
-  weight = 55
-  url = "/open-source"
-
-[[menu.main]]
-  name = "About Us"
   weight = 60
-  url = "/about-us"
+  url = "/open-source"
 
 [[menu.main]]
   name = "Support Us"
   weight = 70
   url = "https://www.patreon.com/techstoa"
+
+[[menu.main]]
+  name = "About Us"
+  weight = 80
+  url = "/about-us"
