@@ -37,7 +37,7 @@ tag = "mobile android friendica"
   url = "/devices"
 
 [[menu.main]]
-  name = "Contact Us"
+  name = "About Us"
   weight = 60
-  url = "/contact"
+  url = "/about-us"
 
