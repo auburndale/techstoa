@@ -17,24 +17,24 @@ tag = "mobile android friendica"
   url = "/"
 
 [[menu.main]]
-  name = "Mobile Apps"
+  name = "Privacy Focus"
   weight = 20
+  url = "/privacy"
+
+[[menu.main]]
+  name = "Mobile Apps"
+  weight = 30
   url = "/mobile-apps"
 
 [[menu.main]]
   name = "Services"
-  weight = 30
+  weight = 40
   url = "/services"
 
 [[menu.main]]
   name = "Devices"
-  weight = 40
-  url = "/devices"
-
-[[menu.main]]
-  name = "Privacy Focus"
   weight = 50
-  url = "/privacy"
+  url = "/devices"
 
 [[menu.main]]
   name = "Contact Us"
