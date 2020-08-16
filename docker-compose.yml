@@ -1,13 +1,19 @@
 version: '3'
 services:
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
   nginx: 
     image: nginx:latest
     container_name: techstoa
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
       - content:/usr/share/nginx/html
-    ports:
-      - 80:80
+    environment:
+      - VIRTUAL_HOST=www.techstoa.com
   build:
     image: klakegg/hugo:0.74.3
     volumes:
