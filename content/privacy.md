@@ -9,7 +9,7 @@ draft: false
 	I made Steve Bannon’s psychological warfare tool.
 	  - Christopher Wylie (2018)
 
-{{< youtube _ViWGF4PzC4 >}}
+{{< youtube oHp7XiJrWkA >}}
 
 	Commercial television delivers 20 million people a minute.
 	In commercial broadcasting the viewer pays for the privilege of having himself sold.
