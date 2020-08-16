@@ -1,2 +1,3 @@
-# www.socal-lite.app
-Website for Social-Lite
+# TechStoa Website
+
+docker-compose up -d
