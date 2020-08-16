@@ -5,6 +5,14 @@ services:
     container_name: techstoa
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
-      - ./public:/usr/share/nginx/html
+      - content:/usr/share/nginx/html
     ports:
       - 80:80
+  build:
+    image: klakegg/hugo:0.74.3
+    volumes:
+      - ".:/src"
+      - content:/src/public
+
+volumes:
+  content:
