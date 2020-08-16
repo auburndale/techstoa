@@ -38,6 +38,7 @@ tag = "mobile android friendica"
 
 [[menu.main]]
   name = "Open Source"
+  weight = 55
   url = "/open-source"
 
 [[menu.main]]
