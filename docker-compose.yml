@@ -14,6 +14,14 @@ services:
       - content:/usr/share/nginx/html
     environment:
       - VIRTUAL_HOST=www.techstoa.com
+  nginx-localhost:
+    image: nginx:latest
+    container_name: localhost
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - content:/usr/share/nginx/html
+    environment:
+      - VIRTUAL_HOST=localhost
   build:
     image: klakegg/hugo:0.74.3
     volumes:
