@@ -1,12 +1,18 @@
--- Make a GET request to load a book called "Public Opinion"
+module Main exposing (..)
+
+
+-- Press a button to send a GET request for random cat GIFs.
 --
 -- Read how it works:
---   https://guide.elm-lang.org/effects/http.html
+--   https://guide.elm-lang.org/effects/json.html
 --
 
 import Browser
-import Html exposing (Html, text, pre)
+import Html exposing (..)
+import Html.Attributes exposing (..)
+import Html.Events exposing (..)
 import Http
+import Json.Decode exposing (Decoder, field, string)
 
 
 
@@ -34,12 +40,7 @@ type Model
 
 init : () -> (Model, Cmd Msg)
 init _ =
-  ( Loading
-  , Http.get
-      { url = "https://elm-lang.org/assets/public-opinion.txt"
-      , expect = Http.expectString GotText
-      }
-  )
+  (Loading, getRandomCatGif)
 
 
 
@@ -47,16 +48,20 @@ init _ =
 
 
 type Msg
-  = GotText (Result Http.Error String)
+  = MorePlease
+  | GotGif (Result Http.Error String)
 
 
 update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
   case msg of
-    GotText result ->
+    MorePlease ->
+      (Loading, getRandomCatGif)
+
+    GotGif result ->
       case result of
-        Ok fullText ->
-          (Success fullText, Cmd.none)
+        Ok url ->
+          (Success url, Cmd.none)
 
         Err _ ->
           (Failure, Cmd.none)
@@ -77,12 +82,43 @@ subscriptions model =
 
 view : Model -> Html Msg
 view model =
+  div []
+    [ h2 [] [ text "Random Cats" ]
+    , viewGif model
+    ]
+
+
+viewGif : Model -> Html Msg
+viewGif model =
   case model of
     Failure ->
-      text "I was unable to load your book."
+      div []
+        [ text "I could not load a random cat for some reason. "
+        , button [ onClick MorePlease ] [ text "Try Again!" ]
+        ]
 
     Loading ->
       text "Loading..."
 
-    Success fullText ->
-      pre [] [ text fullText ]
+    Success url ->
+      div []
+        [ button [ onClick MorePlease, style "display" "block" ] [ text "More Please!" ]
+        , img [ src url ] []
+        ]
+
+
+
+-- HTTP
+
+
+getRandomCatGif : Cmd Msg
+getRandomCatGif =
+  Http.get
+    { url = "https://medium.com/feed/tech-stoa"
+    , expect = Http.expectJson GotGif gifDecoder
+    }
+
+
+gifDecoder : Decoder String
+gifDecoder =
+  field "item" (field "description" string)
