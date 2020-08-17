@@ -33,3 +33,10 @@ With Friendica you can also choose to host your own Pod with your own domain. Wi
 Social Lite is still in testing.
 
 Please join our mailing list
+
+
+
+
+###### Footnote
+
+\* The project name is Diaspora\*, with the \*
