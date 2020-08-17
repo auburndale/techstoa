@@ -16,7 +16,7 @@ Tech Stoa is a brand of Auburndale Technology, LLC, based in Worcester Massachus
 [+1-508-981-0882](tel://1-508-981-0882)
 
 
-Tech Stoa is myself, Gregory Boyce, with an abundence of connections with other experts who can be brought in on projects as needed.
+Tech Stoa is myself, Gregory Boyce, with an wealth of connections with other experts who can be brought in on projects as needed.
 
 
 ## About Greg
