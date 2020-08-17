@@ -24,7 +24,7 @@ One of my inspirations was [Pidgin](https://www.pidgin.im/) which solves the sam
 
 There is a list of [public Friendica Pods](https://dir.friendica.social/servers).
 
-We do host a public Friendica pod called [FriendFace](https://friendface.social/), but we cannot currently guaratentee stability.
+We do host a public Friendica pod called [FriendFace](https://friendface.social/), but we cannot currently guarantee stability.
 
 With Friendica you can also choose to host your own Pod with your own domain. With a bit of learning, you can host your own data on your own hardware, or inquire on our [Services](/services) page about Pod Hosting.
 
