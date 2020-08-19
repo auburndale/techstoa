@@ -14,7 +14,7 @@ services:
       - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
       - content:/usr/share/nginx/html
     environment:
-      - VIRTUAL_HOST=www.techstoa.com,localhost
+      - VIRTUAL_HOST=www.techstoa.com,staging.techstoa.com,localhost
 
   build:
     image: klakegg/hugo:0.74.3
