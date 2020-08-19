@@ -1,15 +1,21 @@
 baseURL = "https://www.techstoa.com/"
 languageCode = "en-us"
 title = "Tech Stoa"
-theme = "npq-hugo"
+theme = "minimal"
 googleAnalytics = ""
-author = "Gregory Boyce"
-info = "Life Hacker"
-tag = "mobile android friendica"
 
 [params]
-  googleAutoAds = ""
-  avatar = "/techstoa.png"
+    author = "Gregory Boyce"
+    description = "Humanity Focused Technology and Philosophy"
+    githubUsername = "#"
+    accent = "red"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "default"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+
 
 [[menu.main]]
   name = "Home"
@@ -45,3 +51,23 @@ tag = "mobile android friendica"
   name = "About Us"
   weight = 80
   url = "/about-us"
+
+[[menu.icon]]
+    url = "mailto:gregory@auburndaletech.com
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/auburndale/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/techstoa/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/gregoryboyce/"
+    name = "linkedin"
+    weight = 4
