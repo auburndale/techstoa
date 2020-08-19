@@ -6,6 +6,7 @@ services:
       - "80:80"
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
+
   nginx: 
     image: nginx:latest
     container_name: techstoa
@@ -13,15 +14,8 @@ services:
       - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
       - content:/usr/share/nginx/html
     environment:
-      - VIRTUAL_HOST=www.techstoa.com
-  nginx-localhost:
-    image: nginx:latest
-    container_name: localhost
-    volumes:
-      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
-      - content:/usr/share/nginx/html
-    environment:
-      - VIRTUAL_HOST=localhost
+      - VIRTUAL_HOST=www.techstoa.com,localhost
+
   build:
     image: klakegg/hugo:0.74.3
     volumes:
