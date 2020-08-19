@@ -1,4 +1,4 @@
-baseURL = "https://www.techstoa.com"
+baseURL = "https://www.techstoa.com/"
 languageCode = "en-us"
 title = "Tech Stoa"
 theme = "npq-hugo"
