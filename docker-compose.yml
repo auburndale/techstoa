@@ -10,11 +10,5 @@ services:
   nginx: 
     build: .
     container_name: techstoa
-    volumes:
-      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
-      - content:/usr/share/nginx/html
     environment:
       - VIRTUAL_HOST=www.techstoa.com,staging.techstoa.com,localhost
-
-volumes:
-  content:

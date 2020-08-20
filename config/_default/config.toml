@@ -53,7 +53,7 @@ googleAnalytics = ""
   url = "/about-us"
 
 [[menu.icon]]
-    url = "mailto:gregory@auburndaletech.com
+    url = "mailto:gregory@auburndaletech.com"
     name = "envelope-o"
     weight = 1
 
