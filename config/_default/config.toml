@@ -5,8 +5,8 @@ theme = "minimal"
 googleAnalytics = ""
 
 [params]
-    author = "Gregory Boyce"
     description = "Humanity Focused Technology and Philosophy"
+    profilePic="techstoa.png"
     githubUsername = "#"
     accent = "red"
     showBorder = true
