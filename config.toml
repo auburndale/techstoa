@@ -54,3 +54,24 @@ paginatePath = "page"
     url = "/about-techstoa"
     name = "About Tech Stoa"
     weight = 70
+
+
+  [[menu.icon]]
+    url = "mailto:gregory@auburndaletech.com"
+    name = "envelope-o"
+    weight = 10
+
+  [[menu.icon]]
+    url = "https://github.com/auburndale/"
+    name = "github"
+    weight = 22
+
+  [[menu.icon]]
+    url = "https://twitter.com/techstoa/"
+    name = "twitter"
+    weight = 30
+
+  [[menu.icon]]
+    url = "https://www.linkedin.com/in/gregoryboyce/"
+    name = "linkedin"
+    weight = 40
