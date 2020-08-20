@@ -1,7 +1,7 @@
 baseURL = "https://www.techstoa.com/"
 languageCode = "en-us"
 title = "Tech Stoa"
-theme = "minimal"
+theme = "hugo-material-blog"
 googleAnalytics = ""
 
 [params]
