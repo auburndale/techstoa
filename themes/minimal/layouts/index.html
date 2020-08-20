@@ -1,11 +1,10 @@
 {{ partial "header" . }}
 
 <main>
-    <br/><br/><br/><br/>
     <div class="intro">
-        {{ with .Site.Params.profilePic }} <img style="width: 30rem; height: 30rem" class="profile" src="{{ . }}"> {{ end }}
-        <h1>{{ .Site.Title }}</h1>
-        <h2>{{ markdownify .Site.Params.Description }}</h2>
+        {{ with .Site.Params.profilePic }} <a href="/about-techstoa"><img style="width: 30rem; height: 30rem" class="profile" src="{{ . }}"></a> {{ end }}
+        <h2>{{ .Site.Title }}</h2>
+        <h3>{{ markdownify .Site.Params.Description }}</h3>
         {{ with .Content }} <div class="homepage-content text-justify">{{ . }}</div> {{ end }}
     </div>
 </main>
