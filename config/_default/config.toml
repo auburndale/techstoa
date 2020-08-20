@@ -1,7 +1,7 @@
 baseURL = "https://www.techstoa.com/"
 languageCode = "en-us"
 title = "Tech Stoa"
-theme = "hugo-material-blog"
+theme = "minimal"
 Copyright = "© 2020 Auburndale Technology, LLC"
 googleAnalytics = ""
 paginate = 3
