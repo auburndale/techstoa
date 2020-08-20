@@ -2,8 +2,10 @@ baseURL = "https://www.techstoa.com/"
 languageCode = "en-us"
 title = "Tech Stoa"
 theme = "hugo-material-blog"
-Copyright = "Copyright 2020 Auburndale Technology, LLC"
+Copyright = "© 2020 Auburndale Technology, LLC"
 googleAnalytics = ""
+paginate = 3
+paginatePath = "page"
 
 [params]
     description = "Humanity Focused Technology and Philosophy"
@@ -13,62 +15,42 @@ googleAnalytics = ""
     showBorder = true
     backgroundColor = "white"
     font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
+    highlight = false
     highlightStyle = "default"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
 
-[[menu.main]]
-  name = "Home"
-  weight = 10
-  url = "/"
+  [[languages.en.menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 10
 
-[[menu.main]]
-  name = "Privacy Focus"
-  weight = 20
-  url = "/privacy"
+  [[languages.en.menu.main]]
+    url = "/privacy"
+    name = "Privacy Focus"
+    weight = 20
 
-[[menu.main]]
-  name = "Social Lite App"
-  weight = 30
-  url = "/social-lite"
+  [[languages.en.menu.main]]
+    url = "/social-lite"
+    name = "Social Lite App"
+    weight = 30
 
-[[menu.main]]
-  name = "Services"
-  weight = 40
-  url = "/services"
+  [[languages.en.menu.main]]
+    url = "/services"
+    name = "Services"
+    weight = 40
 
-[[menu.main]]
-  name = "Devices"
-  weight = 50
-  url = "/devices"
+  [[languages.en.menu.main]]
+    url = "/devices"
+    name = "Devices"
+    weight = 50
 
-[[menu.main]]
-  name = "Open Source"
-  weight = 60
-  url = "/open-source"
+  [[languages.en.menu.main]]
+    url = "/open-source"
+    name = "Open Source"
+    weight = 60
 
-[[menu.main]]
-  name = "About Tech Stoa"
-  weight = 80
-  url = "/about-techstoa"
-
-[[menu.icon]]
-    url = "mailto:gregory@auburndaletech.com"
-    name = "envelope-o"
-    weight = 1
-
-[[menu.icon]]
-    url = "https://github.com/auburndale/"
-    name = "github"
-    weight = 2
-
-[[menu.icon]]
-    url = "https://twitter.com/techstoa/"
-    name = "twitter"
-    weight = 3
-
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/gregoryboyce/"
-    name = "linkedin"
-    weight = 4
+  [[languages.en.menu.main]]
+    url = "/about-techstoa"
+    name = "About Tech Stoa"
+    weight = 70
