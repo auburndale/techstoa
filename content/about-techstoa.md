@@ -6,7 +6,6 @@ draft: false
 
 Tech Stoa is a brand of Auburndale Technology, LLC, based in Worcester Massachusetts.
 
-
 	Auburndale Technology, LLC
 	261 Millbury St Unit 1
 	Worcester, MA 01610
