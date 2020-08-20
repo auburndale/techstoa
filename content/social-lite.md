@@ -4,8 +4,6 @@ date: 2020-08-15T09:42:52-04:00
 draft: false
 ---
 
-## Social Lite
-
 ### What is it?
 
 Social Lite is a mobile client for the [Friendica](https://friendi.ca/) social media platform.

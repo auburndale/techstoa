@@ -2,6 +2,7 @@ baseURL = "https://www.techstoa.com/"
 languageCode = "en-us"
 title = "Tech Stoa"
 theme = "hugo-material-blog"
+Copyright = "Copyright 2020 Auburndale Technology, LLC"
 googleAnalytics = ""
 
 [params]
@@ -48,9 +49,9 @@ googleAnalytics = ""
   url = "/open-source"
 
 [[menu.main]]
-  name = "About Us"
+  name = "About Tech Stoa"
   weight = 80
-  url = "/about-us"
+  url = "/about-techstoa"
 
 [[menu.icon]]
     url = "mailto:gregory@auburndaletech.com"

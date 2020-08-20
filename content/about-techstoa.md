@@ -1,10 +1,8 @@
 ---
-title: "Contact"
+title: "About Tech Stoa"
 date: 2020-08-15T13:13:16-04:00
 draft: false
 ---
-
-## About Us
 
 Tech Stoa is a brand of Auburndale Technology, LLC, based in Worcester Massachusetts.
 
@@ -19,7 +17,7 @@ Tech Stoa is a brand of Auburndale Technology, LLC, based in Worcester Massachus
 Tech Stoa is myself, Gregory Boyce, with an wealth of connections with other experts who can be brought in on projects as needed.
 
 
-## About Greg
+##### About Greg
 
 I spent the last 20 years contributing to an MIT startup becoming a tech giant.
 

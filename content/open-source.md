@@ -4,8 +4,6 @@ date: 2020-08-15T13:13:16-04:00
 draft: false
 ---
 
-## Open Source
-
 [Open Source](https://opensource.com/resources/what-open-source) provides you with the tools and knowledge needed to reshape society by creating new ways to organize.
 
 With time and effort, you can learn how to accomplish things you never would have imaged.
