@@ -9,6 +9,7 @@ paginatePath = "page"
 
 [params]
     description = "Humanity Focused Technology and Philosophy"
+    favicon = "/favicon-32x32.ico"
     profilePic="techstoa.png"
     githubUsername = "#"
     accent = "green"
