@@ -27,6 +27,11 @@ paginatePath = "page"
     weight = 10
 
   [[menu.main]]
+    url = "/essays"
+    name = "Essays"
+    weight = 15
+
+  [[menu.main]]
     url = "/privacy"
     name = "Privacy Focus"
     weight = 20
