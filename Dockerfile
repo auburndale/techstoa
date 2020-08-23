@@ -1,4 +1,5 @@
-from klakegg/hugo as build
+from alpine as build
+RUN apk add --no-cache hugo
 COPY ./ /site
 WORKDIR /site
 RUN hugo
