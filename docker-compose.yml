@@ -1,17 +1,13 @@
 version: '3'
 services:
   nginx-proxy:
-    image: jwilder/nginx-proxy
-    links:
-      - "nginx"
+    image: auburndale/nginx-proxy
     ports:
       - "80:80"
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
-  nginx: 
-    build: .
+  techstoa: 
+    image: auburndale/techstoa
     container_name: techstoa
-    expose: 
-      - "80"
     environment:
       - VIRTUAL_HOST=www.techstoa.com,staging.techstoa.com,techstoa.com,localhost
