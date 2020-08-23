@@ -1,6 +1,6 @@
 ---
 title: "Memes Flow Through Time"
-date: 2020-08-15T13:13:52-04:00
+date: 2020-07-30
 draft: false
 ---
 
