@@ -57,6 +57,11 @@ paginatePath = "page"
     weight = 60
 
   [[menu.main]]
+    url = "/philosophy"
+    name = "Philosophy"
+    weight = 65
+
+  [[menu.main]]
     url = "/about-techstoa"
     name = "About Tech Stoa"
     weight = 70
