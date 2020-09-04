@@ -11,10 +11,16 @@ services:
     image: auburndale/techstoa
     container_name: techstoa
     environment:
-      - VIRTUAL_HOST=www.techstoa.com,staging.techstoa.com,techstoa.com,localhost
+      - VIRTUAL_HOST=www.techstoa.com,techstoa.com,localhost
+
+  staging:
+    image: auburndale/techstoa:staging
+    container_name: staging
+    environment:
+      - VIRTUAL_HOST=staging.techstoa.com
 
   watchtower:
-    image: v2tec/watchtower
+    image: containrrr/watchtower
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - /root/.docker/config.json:/config.json
