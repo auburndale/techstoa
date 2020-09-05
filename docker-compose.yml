@@ -14,7 +14,7 @@ services:
       - VIRTUAL_HOST=www.techstoa.com,techstoa.com,localhost
 
   staging:
-    image: auburndale/techstoa:staging
+    image: techstoa/website:staging
     container_name: staging
     environment:
       - VIRTUAL_HOST=staging.techstoa.com
