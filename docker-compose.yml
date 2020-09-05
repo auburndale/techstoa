@@ -8,7 +8,7 @@ services:
       - /var/run/docker.sock:/tmp/docker.sock:ro
 
   techstoa: 
-    image: auburndale/techstoa
+    image: techstoa/website
     container_name: techstoa
     environment:
       - VIRTUAL_HOST=www.techstoa.com,techstoa.com,localhost
