@@ -6,8 +6,21 @@ services:
       - "80:80"
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
+
   techstoa: 
-    image: auburndale/techstoa
+    image: techstoa/website
     container_name: techstoa
     environment:
-      - VIRTUAL_HOST=www.techstoa.com,staging.techstoa.com,techstoa.com,localhost
+      - VIRTUAL_HOST=www.techstoa.com,techstoa.com,localhost
+
+  staging:
+    image: techstoa/website:staging
+    container_name: staging
+    environment:
+      - VIRTUAL_HOST=staging.techstoa.com
+
+  watchtower:
+    image: containrrr/watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --interval 30

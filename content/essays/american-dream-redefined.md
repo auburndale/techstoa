@@ -1,7 +1,6 @@
 ---
 title: "American Dream Redefined"
 date: 2018-04-24
-draft: true
 ---
 
 People have been talking about the American Dream since the term was initially popularized by James Truslow Adams in 1931. Like most pithy sayings however, most people use it without understanding the original intent or the broader context.
